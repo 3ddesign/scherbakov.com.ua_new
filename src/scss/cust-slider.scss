@@ -1,0 +1,410 @@
+@import "normalize";
+@import "variables";
+
+
+//First index slider:
+
+span {
+  font-size: 1.5em;
+}
+
+#slider-wrapper {
+  display: block;
+  width: 950px;
+  height: 128px;
+  margin: auto;
+  position: relative;
+}
+
+#slider {
+  width: 100%;
+  height: 96%;
+  overflow: hidden;
+  position: relative;
+}
+
+#slider > ul {
+  list-style: none;
+  height: 100%;
+  width: 500%;
+  overflow: hidden;
+  position: relative;
+  left: 0px;
+  -webkit-transition: left .5s;
+  -moz-transition: left .5s;
+  -o-transition: left .5s;
+  transition: left .5s;
+}
+
+#slider > ul > li {
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+#slider > ul > li p {
+  padding: 10px;
+}
+
+#slider > ul > li > img {
+  margin: auto;
+  width: 100%;
+}
+
+#slider-wrapper input[type=radio] {
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  z-index: 1;
+  visibility: hidden;
+
+}
+
+#slider-wrapper label {
+  position: absolute;
+  left: 56%;
+  bottom: 10px;
+  z-index: 2;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -o-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+#slider-wrapper #button-1:checked ~ label[for=button-1] {
+  width: 8px;
+  height: 8px;
+  background-color: #222;
+  border-radius: 50%;
+}
+
+#slider-wrapper #button-2:checked ~ label[for=button-2] {
+  width: 8px;
+  height: 8px;
+  background-color: #222;
+  border-radius: 50%;
+}
+
+#slider-wrapper #button-3:checked ~ label[for=button-3] {
+  background: #888;
+}
+
+#slider-wrapper #button-4:checked ~ label[for=button-4] {
+  background: #888;
+}
+
+#slider-wrapper #button-5:checked ~ label[for=button-5] {
+  background: #888;
+}
+
+#slider-wrapper label[for=button-1] {
+  margin-left: -40px
+}
+
+#slider-wrapper label[for=button-2] {
+  margin-left: -20px
+}
+
+#slider-wrapper label[for=button-4] {
+  margin-left: 20px
+}
+
+#slider-wrapper label[for=button-5] {
+  margin-left: 40px
+}
+
+#slider-wrapper #button-1:checked ~ #slider > ul {
+  left: 0
+}
+
+#slider-wrapper #button-2:checked ~ #slider > ul {
+  left: -100%
+}
+
+#slider-wrapper #button-3:checked ~ #slider > ul {
+  left: -200%
+}
+
+#slider-wrapper #button-4:checked ~ #slider > ul {
+  left: -300%
+}
+
+#slider-wrapper #button-5:checked ~ #slider > ul {
+  left: -400%
+}
+
+.controls {
+  display: none;
+}
+
+@media only screen and (max-width: 988px) {
+  .controls {
+    display: block;
+  }
+  #slider-wrapper {
+    display: block;
+    width: 460px;
+    height: 128px;
+    margin: auto;
+    position: relative;
+  }
+  #slider {
+    margin-left: -30px;
+  }
+
+  #slide1,
+  #slide2 {
+    .a-item {
+      margin: 16px 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  #slider-wrapper {
+    display: block;
+    width: 330px;
+    height: 128px;
+    margin: auto;
+    position: relative;
+  }
+  #slider {
+    margin-left: -41px;
+  }
+
+  #slide1,
+  #slide2 {
+    .a-item {
+      margin: 16px 3px;
+    }
+  }
+}
+
+//Second index slider:
+
+
+span {
+  font-size: 1.5em;
+}
+
+#slider2-wrapper {
+  display: block;
+  width: 950px;
+  height: 163px;
+  margin: auto;
+  position: relative;
+}
+
+#slider2 {
+  width: 100%;
+  height: 96%;
+  overflow: hidden;
+  position: relative;
+}
+
+#slider2 > ul {
+  list-style: none;
+  height: 100%;
+  width: 500%;
+  overflow: hidden;
+  position: relative;
+  left: 0px;
+  -webkit-transition: left .5s;
+  -moz-transition: left .5s;
+  -o-transition: left .5s;
+  transition: left .5s;
+}
+
+#slider2 > ul > li {
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+#slider2 > ul > li p {
+  padding: 10px;
+}
+
+#slider2 > ul > li > img {
+
+}
+
+#slider2-wrapper input[type=radio] {
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  z-index: 1;
+  visibility: hidden;
+
+}
+
+#slider2-wrapper label {
+  position: absolute;
+  left: 56%;
+  bottom: 10px;
+  z-index: 2;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -o-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+#slider2-wrapper #button2-1:checked ~ label[for=button2-1] {
+  width: 8px;
+  height: 8px;
+  background-color: #222;
+  border-radius: 50%;
+}
+
+#slider2-wrapper #button2-2:checked ~ label[for=button2-2] {
+  width: 8px;
+  height: 8px;
+  background-color: #222;
+  border-radius: 50%;
+}
+
+#slider2-wrapper #button2-3:checked ~ label[for=button2-3] {
+  width: 8px;
+  height: 8px;
+  background-color: #222;
+  border-radius: 50%;
+}
+
+#slider2-wrapper #button2-4:checked ~ label[for=button2-4] {
+  width: 8px;
+  height: 8px;
+  background-color: #222;
+  border-radius: 50%;
+}
+
+#slider2-wrapper #button2-5:checked ~ label[for=button2-5] {
+  background: #888;
+}
+
+#slider2-wrapper label[for=button2-1] {
+  margin-left: -50px
+}
+
+#slider2-wrapper label[for=button2-2] {
+  margin-left: -30px
+}
+
+#slider2-wrapper label[for=button2-3] {
+  margin-left: -10px
+}
+
+#slider2-wrapper label[for=button2-4] {
+  margin-left: 10px
+}
+
+#slider2-wrapper #button2-1:checked ~ #slider2 > ul {
+  left: 0
+}
+
+#slider2-wrapper #button2-2:checked ~ #slider2 > ul {
+  left: -100%
+}
+
+#slider2-wrapper #button2-3:checked ~ #slider2 > ul {
+  left: -200%
+}
+
+#slider2-wrapper #button2-4:checked ~ #slider2 > ul {
+  left: -300%
+}
+
+#slider2-wrapper #button2-5:checked ~ #slider2 > ul {
+  left: -400%
+}
+
+.controls {
+  display: none;
+}
+
+.slider2-img {
+  width: 152px;
+  margin: 30px 36px;
+}
+.slider2-img-mod {
+  margin-top: 14px;
+}
+.slider2-show {
+  display: none;
+}
+
+@media only screen and (max-width: 988px) {
+  .slider2-show {
+    display: inline-block;
+  }
+.slider-section {
+  height: 252px !important;
+}
+  #slider2-wrapper {
+    display: block;
+    width: 460px;
+    height: 136px;
+    margin: auto;
+    position: relative;
+  }
+  #slider2 {
+    margin-left: -31px;
+  }
+  .controls {
+    display: block;
+  }
+
+  #slide24 {
+    img {
+      margin-left: 82px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .slider-section {
+    height: 230px !important;
+  }
+  .slider {
+    font-size: 22px !important;
+  }
+  .slider2-img {
+    width: 112px;
+    margin: 33px 10px;
+  }
+
+  #slider2-wrapper {
+    display: block;
+    width: 320px;
+    height: 128px;
+    margin: auto;
+    position: relative;
+  }
+  #slider2 {
+    margin-left: -33px;
+  }
+
+  #slide21,
+  #slide22 {
+    .a-item {
+      margin: 16px 3px;
+    }
+  }
+
+  #slide24 {
+    img {
+      margin-left: 52px;
+    }
+  }
+}

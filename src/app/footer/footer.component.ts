@@ -1,0 +1,17 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['../../scss/app.scss']
+})
+export class FooterComponent implements OnInit {
+
+  constructor() { }
+
+  public ngOnInit() {
+    const headerCont: any = document.getElementById('head');
+    headerCont.setAttribute('class', 'index-header');
+  }
+
+}

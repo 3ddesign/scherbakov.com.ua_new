@@ -1,0 +1,18 @@
+<div id="modal-window" class="modal-wrapper">
+
+  <div id="modal" class="modal-window signin">
+    <h5>Change Password</h5>
+    <div class="close-btn" (click)="closeModal($event)"></div>
+    <form>
+      <input type="password" placeholder="Old Password" required>
+      <input type="password" placeholder="New Password" required>
+      <input type="password" placeholder="New Password" required>
+    <a class="signin-btn" (click)="SavedIn()">Save New Password</a>
+    </form>
+  </div>
+
+  <div id="email-notification" class="modal-notification hidden">
+    <p>Your Password has been changed</p>
+  </div>
+
+</div>

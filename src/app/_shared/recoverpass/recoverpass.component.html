@@ -1,0 +1,18 @@
+<div id="modal-window" class="modal-wrapper">
+
+  <div id="modal" class="modal-window signin">
+    <h5>Rassword recovering</h5>
+    <div class="close-btn" (click)="closeModal($event)"></div>
+    <p>Please, enter your Email and we will send you new Password. Later you could change it in Profile Settings</p>
+    <form>
+      <input type="text" placeholder="Email" required>
+    </form>
+    <a class="signin-btn" (click)="SendIn()">Send</a>
+    <span>Haven't Account? <a (click)="switchSignUp()">Register</a></span>
+  </div>
+
+  <div id="email-notification" class="modal-notification hidden">
+    <p>Please, check your Email</p>
+  </div>
+
+</div>
