@@ -1,5 +1,5 @@
 <template>
-  <header id="header">
+  <header id="header"  v-parallax="0.2">
     <div class="home-overlay"></div>
     <div class="intro">
       <h2 class="start">Dmitry Scherbakov</h2>
