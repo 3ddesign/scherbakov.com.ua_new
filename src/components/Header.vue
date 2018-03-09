@@ -1,0 +1,137 @@
+<template>
+  <header id="header">
+    <div class="home-overlay"></div>
+    <div class="intro">
+      <h2 class="start">Dmitry Scherbakov</h2>
+      <h1>Frontend Developer</h1>
+      <div class="resume"><a target="_blank" href="http://scherbakov.com.ua/Scherbakov_D.pdf">Download my CV</a>
+      </div>
+    </div>
+    <div class="scroll-down">
+    <span>
+    <img src="../assets/icons/down-arrow.svg" alt="arrow">
+    </span>
+    </div>
+  </header>
+</template>
+
+<script>
+</script>
+
+<style scoped lang="scss">
+  h1 {
+    font: 700 40px/1.2 Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 800;
+    margin: 5px 0;
+    color: darken(white, 10);
+    margin-bottom: 20px;
+    opacity: .8;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
+
+  header {
+    background: url('../assets/images/bg.jpg');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .home-overlay {
+      position: absolute;
+      background-color: rgba(44, 62, 80, 0.3);
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .intro {
+    text-align: center;
+    position: absolute;
+    padding: 0 15px;
+  }
+
+  .resume {
+    a {
+      color: white;
+      text-decoration: none;
+      font: 400 18px/1.2 Raleway, sans-serif;
+      &:hover {
+        color: dodgerblue;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+
+  .scroll-down {
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    text-align: center;
+    margin-top: 40vh;
+  }
+
+  .scroll-down span {
+    position: relative;
+    -webkit-animation-name: drop;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: drop;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    img {
+      width: 50px;
+    }
+  }
+
+  @-webkit-keyframes drop {
+    0% {
+      top: 0;
+      opacity: 0;
+    }
+
+    30% {
+      top: 10px;
+      opacity: 1;
+    }
+
+    100% {
+      top: 25px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes drop {
+    0% {
+      top: 0;
+      opacity: 0;
+    }
+
+    30% {
+      top: 10px;
+      opacity: 1;
+    }
+
+    100% {
+      top: 25px;
+      opacity: 0;
+    }
+  }
+
+</style>

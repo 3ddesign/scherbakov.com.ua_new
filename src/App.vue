@@ -1,28 +1,49 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <Header/>
+    <Menu/>
+    <About/>
+    <Experience/>
+    <Contacts/>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Header from './components/Header'
+import Menu from './components/Menu.vue'
+import About from './components/About.vue'
+import Experience from './components/Experience.vue'
+import Contacts from './components/Contacts.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    Menu,
+    About,
+    Experience,
+    Contacts
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+  @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+  body {
+    margin: 0;
+    padding: 0;
+    font: 300 14px/1.8 'Raleway', sans-serif;
+    color: #666;
+    overflow-x: hidden;
+  }
+  h2 {
+    font-size: 28px;
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    color: gray;
+  }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>
