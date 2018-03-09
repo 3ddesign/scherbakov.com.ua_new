@@ -5,7 +5,7 @@
     <About/>
     <Experience/>
     <Contacts/>
-
+    <Footer/>
   </div>
 </template>
 
@@ -15,6 +15,7 @@ import Menu from './components/Menu.vue'
 import About from './components/About.vue'
 import Experience from './components/Experience.vue'
 import Contacts from './components/Contacts.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -23,7 +24,8 @@ export default {
     Menu,
     About,
     Experience,
-    Contacts
+    Contacts,
+    Footer
   }
 }
 </script>
@@ -38,10 +40,17 @@ export default {
     overflow-x: hidden;
   }
   h2 {
-    font-size: 28px;
     margin: 0 0 30px;
     text-transform: uppercase;
+    font: 700 28px/1.2 Raleway,sans-serif;
+    letter-spacing: 3px;
     color: gray;
+  }
+  .pfblock-line {
+    background: rgba(135, 135, 135, 0.5);
+    width: 100px;
+    height: 1px;
+    margin: 30px auto;
   }
 #app {
 
