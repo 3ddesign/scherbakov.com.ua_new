@@ -5,6 +5,7 @@
     <About/>
     <Experience/>
     <Contacts/>
+
   </div>
 </template>
 
@@ -29,12 +30,18 @@ export default {
 
 <style lang="scss">
   @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
-
   body {
     margin: 0;
     padding: 0;
     font: 300 14px/1.8 'Raleway', sans-serif;
     color: #666;
+    overflow-x: hidden;
+  }
+  h2 {
+    font-size: 28px;
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    color: gray;
   }
 #app {
 
