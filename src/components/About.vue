@@ -1,7 +1,8 @@
 <template>
   <section id="aboutme">
     <div class="container">
-      <h2 class="title">About me</h2>
+      <h2>About me</h2>
+      <div class="pfblock-line"></div>
       <img src="../assets/images/Dmitry.jpg" alt="Dmitry_Scherbakov">
       <div class="pfblock-subtitle">
         Hi! My name is Dmitry, I'm a Front-end developer. I use Angular 2+ as main framework. Rarely use React library. Also, I have some experience of creating API using Node.js <br>
@@ -58,7 +59,7 @@
     height: 100vh;
     img {
       border-radius: 50%;
-      width: 160px;
+      width: 157px;
       height: 154px;
       display: inline-block;
     }
@@ -66,7 +67,7 @@
       font-family: Raleway, "Times New Roman", Times, sans-serif;
       font-style: normal;
       font-size: 16px;
-      color: black;
+      color: #222;
     }
   }
 </style>

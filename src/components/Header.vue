@@ -34,6 +34,7 @@
     font-size: 24px;
     font-weight: 600;
     color: white;
+    text-transform: inherit;
   }
 
   header {
