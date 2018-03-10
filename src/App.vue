@@ -40,11 +40,11 @@ export default {
     overflow-x: hidden;
   }
   h2 {
-    margin: 0 0 30px;
+    margin: 30px 0px 30px 0px;
     text-transform: uppercase;
     font: 700 28px/1.2 Raleway,sans-serif;
     letter-spacing: 3px;
-    color: gray;
+    color: #222;
   }
   .pfblock-line {
     background: rgba(135, 135, 135, 0.5);
