@@ -1,5 +1,5 @@
 <template>
-  <header id="header">
+  <header id="home">
     <div class="home-overlay"></div>
     <div class="intro">
       <h2 class="start">Dmitry Scherbakov</h2>
@@ -9,7 +9,9 @@
     </div>
     <div class="scroll-down">
     <span>
-    <img src="../assets/icons/down-arrow.svg" alt="arrow">
+      <a href="#topMenu" v-smooth-scroll="{ duration: 1500 }">
+        <img src="../assets/icons/down-arrow.svg" alt="arrow">
+      </a>
     </span>
     </div>
   </header>
@@ -19,6 +21,8 @@
 </script>
 
 <style scoped lang="scss">
+  @import '../assets/scss/mixins';
+
   h1 {
     font: 700 40px/1.2 Raleway, sans-serif;
     text-transform: uppercase;
@@ -26,7 +30,7 @@
     font-weight: 800;
     margin: 5px 0;
     color: darken(white, 10);
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     opacity: .8;
   }
 
@@ -47,6 +51,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include respond-to($p480) {
+      background-attachment: inherit;
+    }
     .home-overlay {
       position: absolute;
       background-color: rgba(44, 62, 80, 0.3);

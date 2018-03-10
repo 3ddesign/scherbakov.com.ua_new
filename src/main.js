@@ -3,9 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import VueParallaxJs from 'vue-parallax-js'
+import vueSmoothScroll from 'vue-smooth-scroll'
 
 Vue.config.productionTip = false
 Vue.use(VueParallaxJs)
+Vue.use(vueSmoothScroll)
 
 /* eslint-disable no-new */
 new Vue({
