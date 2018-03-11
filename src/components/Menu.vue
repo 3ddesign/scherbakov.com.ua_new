@@ -1,5 +1,5 @@
 <template>
-  <div class="menu-container" >
+  <div  v-on:resize="handleResize($event)" class="menu-container" >
   <div id="topMenu" class="menu-wrapper"  ref="topMenu">
     <nav class="menu">
       <div class="container">
@@ -11,7 +11,7 @@
           <li class=""><a href="#experience" v-smooth-scroll="{ duration: 1500 }" ref="experienceBtn">Experience</a></li>
           <li><a href="#contact" v-smooth-scroll="{ duration: 1500 }" ref="contactBtn">Contact</a></li>
         </ul>
-        <ul class="mobile-menu" ref="mobMenu">
+        <ul @click="showMenu" class="mobile-menu" ref="mobMenu">
           <li><a href="#home" class="active" v-smooth-scroll="{ duration: 1500 }" ref="homeBtnMob">Home</a></li>
           <li class=""><a href="#about" v-smooth-scroll="{ duration: 1500 }" ref="aboutBtnMob">About me</a></li>
           <li class=""><a href="#experience" v-smooth-scroll="{ duration: 1500 }" ref="experienceBtnMob">Experience</a></li>
@@ -29,6 +29,9 @@
 <script>
 export default {
   methods: {
+    handleResize (event) {
+      this.$refs['mobMenu'].classList.remove('show-menu')
+    },
     handleScroll (event) {
       if (window.scrollY < window.innerHeight) {
         this.$refs['homeBtn'].classList.add('active')
@@ -72,9 +75,11 @@ export default {
   },
   created () {
     window.addEventListener('scroll', this.handleScroll)
+    window.addEventListener('resize', this.handleResize)
   },
   destroyed () {
     window.removeEventListener('scroll', this.handleScroll)
+    window.removeEventListener('resize', this.handleResize)
   }
 }
 </script>
@@ -135,7 +140,7 @@ export default {
     top: 0;
   }
   .active {
-    color: #e7746f !important;
+    color: #f30f06 !important;
   }
 
   .scroll-up {

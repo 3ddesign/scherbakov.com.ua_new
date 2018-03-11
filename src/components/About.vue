@@ -20,7 +20,7 @@
           <td>HTML5, CSS3</td>
         </tr>
         <tr>
-          <td>Angular 2+, Vue.js</td>
+          <td>Angular 2+, React</td>
         </tr>
 
         <tr>
@@ -33,10 +33,8 @@
           <td>Adaptive layout using different preprocessors and frameworks</td>
         </tr>
         <tr>
-          <td>Also extensive experience of network and system administration (configuring
-            servers on
-            Windows and Linux, T-SQL queries, bash scripting, deployment and
-            maintenance of various IT solutions, etc.)
+          <td>Also extensive experience of network and system administration: configuring
+            servers, deployment and maintenance of various network solutions, etc.
           </td>
         </tr>
         </tbody>

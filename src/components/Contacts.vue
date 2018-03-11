@@ -49,6 +49,10 @@
     justify-content: space-between;
     i {
       color: #666;
+      &:hover {
+        animation: swing 0.6s ease;
+        animation-iteration-count: 1;
+      }
     }
     @include respond-to($p650) {
       flex-direction: column;
@@ -65,4 +69,32 @@
       font-size: 17px;
     }
   }
+
+  @keyframes swing {
+    15% {
+      -webkit-transform: translateX(9px);
+      transform: translateX(9px);
+    }
+    30% {
+      -webkit-transform: translateX(-9px);
+      transform: translateX(-9px);
+    }
+    40% {
+      -webkit-transform: translateX(6px);
+      transform: translateX(6px);
+    }
+    50% {
+      -webkit-transform: translateX(-6px);
+      transform: translateX(-6px);
+    }
+    65% {
+      -webkit-transform: translateX(3px);
+      transform: translateX(3px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+
 </style>
