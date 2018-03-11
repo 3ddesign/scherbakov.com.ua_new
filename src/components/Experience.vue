@@ -77,11 +77,15 @@
 </script>
 
 <style scoped lang="scss">
+  @import '../assets/scss/mixins';
   .container {
     margin: auto;
     padding: 20px 140px;
     text-align: center;
     background-color: #f5f5f5;
+    @include respond-to($p888) {
+      padding: 20px 0px;
+    }
   }
 
   table {
@@ -127,6 +131,14 @@
           color: #999;
         }
       }
+    }
+    @include respond-to($p650) {
+      min-width: 0px;
+      width: 92%;
+    }
+    @include respond-to($p888) {
+      font-size: 11px;
+      color: #222;
     }
   }
   .bold-col {

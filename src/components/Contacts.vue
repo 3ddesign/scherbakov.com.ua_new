@@ -29,12 +29,18 @@
 </script>
 
 <style scoped lang="scss">
+  @import '../assets/scss/mixins';
   .container {
     margin: auto;
     padding: 120px 140px;
     max-width: 1170px;
     text-align: center;
-
+    @include respond-to($p888) {
+      padding: 20px 80px;
+    }
+    @include respond-to($p650) {
+      padding: 20px  0px;
+    }
   }
   .contact-blocks {
     text-align: center;
@@ -44,10 +50,19 @@
     i {
       color: #666;
     }
+    @include respond-to($p650) {
+      flex-direction: column;
+    }
   }
   .pfblock-subtitle {
     font-family: Raleway, "Times New Roman", Times, sans-serif;
     font-style: normal;
-    font-size: 18px;
+    font-size: 17px;
+    @include respond-to($p888) {
+      font-size: 13px;
+    }
+    @include respond-to($p650) {
+      font-size: 17px;
+    }
   }
 </style>

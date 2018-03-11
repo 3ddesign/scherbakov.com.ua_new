@@ -4,11 +4,18 @@
     <nav class="menu">
       <div class="container">
         <a class="my-name" href="http://scherbakov.com.ua/">Dmitry Scherbakov</a>
-        <ul>
+        <img  @click="showMenu" src="../assets/images/mob-mnu.svg" class="mob-menu-lnk" alt="humburger menu">
+        <ul class="desktop-menu">
           <li><a href="#home" class="active" v-smooth-scroll="{ duration: 1500 }" ref="homeBtn">Home</a></li>
           <li class=""><a href="#about" v-smooth-scroll="{ duration: 1500 }" ref="aboutBtn">About me</a></li>
           <li class=""><a href="#experience" v-smooth-scroll="{ duration: 1500 }" ref="experienceBtn">Experience</a></li>
           <li><a href="#contact" v-smooth-scroll="{ duration: 1500 }" ref="contactBtn">Contact</a></li>
+        </ul>
+        <ul class="mobile-menu" ref="mobMenu">
+          <li><a href="#home" class="active" v-smooth-scroll="{ duration: 1500 }" ref="homeBtnMob">Home</a></li>
+          <li class=""><a href="#about" v-smooth-scroll="{ duration: 1500 }" ref="aboutBtnMob">About me</a></li>
+          <li class=""><a href="#experience" v-smooth-scroll="{ duration: 1500 }" ref="experienceBtnMob">Experience</a></li>
+          <li><a href="#contact" v-smooth-scroll="{ duration: 1500 }" ref="contactBtnMob">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -25,31 +32,42 @@ export default {
     handleScroll (event) {
       if (window.scrollY < window.innerHeight) {
         this.$refs['homeBtn'].classList.add('active')
+        this.$refs['homeBtnMob'].classList.add('active')
         this.$refs['scrollBtn'].style.opacity = '0'
       } else {
         this.$refs['homeBtn'].classList.remove('active')
+        this.$refs['homeBtnMob'].classList.remove('active')
         this.$refs['scrollBtn'].style.opacity = '1'
       }
       if (window.scrollY > window.innerHeight && window.scrollY < 1350) {
         this.$refs['aboutBtn'].classList.add('active')
+        this.$refs['aboutBtnMob'].classList.add('active')
       } else {
         this.$refs['aboutBtn'].classList.remove('active')
+        this.$refs['aboutBtnMob'].classList.remove('active')
       }
-      if (window.scrollY > 1350 && window.scrollY < 2000) {
+      if (window.scrollY > 1350 && window.scrollY < 1900) {
         this.$refs['experienceBtn'].classList.add('active')
+        this.$refs['experienceBtnMob'].classList.add('active')
       } else {
         this.$refs['experienceBtn'].classList.remove('active')
+        this.$refs['experienceBtnMob'].classList.remove('active')
       }
-      if (window.scrollY > 2000) {
+      if (window.scrollY > 1900) {
         this.$refs['contactBtn'].classList.add('active')
+        this.$refs['contactBtnMob'].classList.add('active')
       } else {
         this.$refs['contactBtn'].classList.remove('active')
+        this.$refs['contactBtnMob'].classList.remove('active')
       }
       if (window.scrollY > window.innerHeight) {
         this.$refs['topMenu'].classList.add('show')
       } else {
         this.$refs['topMenu'].classList.remove('show')
       }
+    },
+    showMenu () {
+      this.$refs['mobMenu'].classList.toggle('show-menu')
     }
   },
   created () {
@@ -62,6 +80,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  @import '../assets/scss/mixins';
   .menu-wrapper {
     width: 100%;
     height: 51px;
@@ -70,9 +89,12 @@ export default {
       text-align: center;
       height: 51px;
       border-bottom: 1px solid #f5f5f5;
+      background-color: white;
+      @include respond-to($p650) {
+        line-height: 50px;
+      }
+     }
     }
-  }
-
   .my-name {
     color: #222;
     text-decoration: none;
@@ -113,7 +135,7 @@ export default {
     top: 0;
   }
   .active {
-    color: #e7746f;
+    color: #e7746f !important;
   }
 
   .scroll-up {
@@ -144,4 +166,50 @@ export default {
     }
   }
 
+  .mob-menu-lnk {
+    display: none;
+    width: 21px;
+    cursor: pointer;
+    @include respond-to($p650) {
+      display: block;
+    }
+  }
+
+  .mobile-menu {
+    display: none !important;
+    position: absolute;
+    margin-top: 90px;
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    box-shadow: 0px 8px 10px -10px rgba(0,0,0,0.75);
+      li {
+        display: block;
+        line-height: 26px;
+        margin: 8px 0;
+        a {
+          color: #222;
+          font-size: 11px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          text-decoration: none;
+          display: block;
+          padding: 0 15px;
+        }
+      }
+    @include respond-to($p650) {
+      display: block;
+    }
+  }
+
+  .show-menu {
+    display: block !important;
+  }
+
+  .desktop-menu {
+    display: block;
+    @include respond-to($p650) {
+      display: none;
+    }
+  }
 </style>

@@ -28,10 +28,14 @@
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 800;
-    margin: 5px 0;
-    color: darken(white, 10);
+    margin-top: 5px;
     margin-bottom: 24px;
+    color: darken(white, 10);
     opacity: .8;
+    @include respond-to($p480) {
+      letter-spacing: 1px;
+      font-style: normal;
+    }
   }
 
   h2 {
@@ -39,6 +43,10 @@
     font-weight: 600;
     color: white;
     text-transform: inherit;
+    @include respond-to($p480) {
+      letter-spacing: 0.5px;
+      font-style: normal;
+    }
   }
 
   header {

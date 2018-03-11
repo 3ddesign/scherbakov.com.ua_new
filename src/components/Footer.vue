@@ -21,8 +21,6 @@
 
 <style scoped lang="scss">
   footer {
-    height: 171px;
-    padding: 0px 140px;
     margin: auto;
     text-align: center;
     display: flex;
@@ -34,6 +32,7 @@
   .copyright {
     color: white;
     margin-top: 5px;
+    padding-bottom: 25px;
   }
 
   .social-links {

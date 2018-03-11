@@ -32,6 +32,7 @@ export default {
 
 <style lang="scss">
   @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+  @import './assets/scss/mixins';
   body {
     margin: 0;
     padding: 0;
@@ -45,12 +46,24 @@ export default {
     font: 700 28px/1.2 Raleway,sans-serif;
     letter-spacing: 3px;
     color: #222;
+    @include respond-to($p650) {
+      white-space: nowrap;
+      font-weight: 800;
+      font-size: 20px !important;
+      letter-spacing: 3px;
+    }
+    @include respond-to($p650) {
+      margin: 20px 0;
+    }
   }
   .pfblock-line {
     background: rgba(135, 135, 135, 0.5);
     width: 100px;
     height: 1px;
     margin: 30px auto;
+    @include respond-to($p650) {
+      display: none;
+    }
   }
 #app {
 
