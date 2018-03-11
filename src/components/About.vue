@@ -3,10 +3,10 @@
     <div class="container">
       <h2>About me</h2>
       <div class="pfblock-line"></div>
-      <img src="../assets/images/Dmitry.jpg" alt="Dmitry_Scherbakov">
+      <img src="../assets/images/Dmitry.jpg" alt="Dmitry Scherbakov">
       <div class="pfblock-subtitle">
-        Hi! My name is Dmitry, I'm a Front-end developer. I use Angular 2+ as main framework. Also, I have some experience of creating API using Node.js <br>
-        I'm passionate about developing with JavaScript, have aspiration to grow as strong
+        Hi! My name is Dmitry. I'm a frontend developer. <br> I use Angular 2+ as main framework, have some experience of creating API using Node.js.
+        I'm passionate about developing with JavaScript and have aspiration to grow as strong
         full stack developer.
       </div>
       <br>
@@ -20,7 +20,7 @@
           <td>HTML5, CSS3</td>
         </tr>
         <tr>
-          <td>Angular 2+, React</td>
+          <td>Angular 2+, Vue.js</td>
         </tr>
 
         <tr>
@@ -35,7 +35,7 @@
         <tr>
           <td>Also extensive experience of network and system administration (configuring
             servers on
-            Windows and Linux, virtualization, T-SQL queries, bash scripting, deployment and
+            Windows and Linux, T-SQL queries, bash scripting, deployment and
             maintenance of various IT solutions, etc.)
           </td>
         </tr>
@@ -49,8 +49,14 @@
 </script>
 
 <style scoped lang="scss">
+  @import '../assets/scss/mixins';
+
   section {
-    height: 860px;
+    height: 890px;
+    @include respond-to($p650) {
+      height: 1100px;
+    }
+
   }
   .container {
     margin: auto;
@@ -58,6 +64,9 @@
     max-width: 1170px;
     text-align: center;
     height: 100vh;
+    @include respond-to($p888) {
+      padding: 20px 0px;
+    }
     img {
       border-radius: 50%;
       width: 157px;
@@ -74,14 +83,20 @@
       margin: auto;
       min-width: 590px;
       font-weight: 400;
+      @include respond-to($p650) {
+        font-size: 18px;
+        min-width: 0px;
+        width: 92%;
+      }
     }
   }
 
   table {
     margin: 40px auto;
     width: 60%;
-    border-spacing: 0px;
+    border-spacing: 0;
     min-width: 590px;
+    color: #222;
     caption {
       font-weight: 800;
       font-size: 15px;
@@ -120,6 +135,10 @@
           color: #999;
         }
       }
+    }
+    @include respond-to($p650) {
+      min-width: 0px;
+      width: 92%;
     }
   }
 </style>
