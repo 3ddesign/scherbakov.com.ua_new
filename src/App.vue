@@ -39,6 +39,7 @@ export default {
     font: 300 14px/1.8 'Raleway', sans-serif;
     color: #666;
     overflow-x: hidden;
+    outline: hidden;
   }
   h2 {
     margin: 30px 0px 30px 0px;

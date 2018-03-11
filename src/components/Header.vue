@@ -3,7 +3,7 @@
     <div class="home-overlay"></div>
     <div class="intro">
       <h2 class="start">Dmitry Scherbakov</h2>
-      <h1>Frontend Developer</h1>
+      <h1  v-bind:class="{ isActive: isHovered }" v-on:mouseover="mouseOver">Frontend Developer</h1>
       <div class="resume"><a target="_blank" href="http://scherbakov.com.ua/Scherbakov_D.pdf">Download my CV</a>
       </div>
     </div>
@@ -18,6 +18,21 @@
 </template>
 
 <script>
+export default {
+  data () {
+    return {
+      isHovered: false
+    }
+  },
+  methods: {
+    mouseOver: function () {
+      this.isHovered = true
+      setTimeout(() => {
+        this.isHovered = false
+      }, 1000)
+    }
+  }
+}
 </script>
 
 <style scoped lang="scss">
@@ -32,9 +47,35 @@
     margin-bottom: 24px;
     color: darken(white, 10);
     opacity: .8;
+
     @include respond-to($p480) {
       letter-spacing: 1px;
       font-style: normal;
+    }
+    /*&:hover {*/
+      /*animation:text-animation 1s ease;*/
+    /*}*/
+  }
+
+  .isActive {
+    animation:text-animation 1s ease;
+  }
+
+  @keyframes text-animation {
+    0%{
+      transform: scaleX(1);
+    }
+    30%{
+      transform: scaleX(1.2);
+    }
+    50%{
+      transform: scaleX(0.9);
+    }
+    70%{
+      transform: scaleX(1);
+    }
+    100%{
+      transform: scaleX(1);
     }
   }
 
@@ -65,8 +106,8 @@
     .home-overlay {
       position: absolute;
       background-color: rgba(44, 62, 80, 0.3);
-      height: 100%;
-      width: 100%;
+      height: 100vh;
+      width: 100vw;
     }
   }
 
