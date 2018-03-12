@@ -42,7 +42,7 @@ export default {
     outline: hidden;
   }
   h2 {
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0 30px 0;
     text-transform: uppercase;
     font: 700 28px/1.2 Raleway,sans-serif;
     letter-spacing: 3px;
@@ -66,7 +66,4 @@ export default {
       display: none;
     }
   }
-#app {
-
-}
 </style>

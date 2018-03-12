@@ -22,13 +22,11 @@
           <td>Feb 2009 - Jun 2017</td>
           <td>«Asbis Ukraine»</td>
           <td class="bold-col">IT Manager</td>
-
         </tr>
         <tr>
           <td>Nov 2007 - Feb 2009</td>
           <td>«Intercity Travel ltd»</td>
           <td class="bold-col">System Administrator</td>
-
         </tr>
         <tr>
           <td>Feb 2005 - Nov 2007</td>
@@ -84,14 +82,14 @@
     text-align: center;
     background-color: #f5f5f5;
     @include respond-to($p888) {
-      padding: 20px 0px;
+      padding: 20px 0;
     }
   }
 
   table {
     margin: 40px auto;
     width: 60%;
-    border-spacing: 0px;
+    border-spacing: 0;
     min-width: 590px;
     caption {
       font-weight: 800;
@@ -133,7 +131,7 @@
       }
     }
     @include respond-to($p650) {
-      min-width: 0px;
+      min-width: 0;
       width: 92%;
     }
     @include respond-to($p888) {
@@ -141,6 +139,7 @@
       color: #222;
     }
   }
+
   .bold-col {
     font-weight: 400;
     color: #028ed2;

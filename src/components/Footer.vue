@@ -1,14 +1,18 @@
 <template>
   <footer>
     <ul class="social-links">
-      <li><a target="_blank" href="https://www.facebook.com/dmitry.scherbakov.585"><i class="fa fa-facebook"
-                                                                                      aria-hidden="true"></i></a></li>
-      <li><a target="_blank" href="https://twitter.com/scherbakov_di" ><i
-        class="fa fa-twitter" aria-hidden="true"></i></a></li>
-      <li><a target="_blank" href="https://www.linkedin.com/in/dmitry-scherbakov"><i
-        class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-      <li><a target="_blank" href="https://github.com/3ddesign"><i
-        class="fa fa-github" aria-hidden="true"></i></a></li>
+      <li>
+        <a target="_blank" href="https://www.facebook.com/dmitry.scherbakov.585">
+          <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li>
+        <a target="_blank" href="https://twitter.com/scherbakov_di">
+          <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/dmitry-scherbakov">
+          <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+      <li>
+        <a target="_blank" href="https://github.com/3ddesign">
+          <i class="fa fa-github" aria-hidden="true"></i></a></li>
     </ul>
     <p class="copyright">
       © 2018 Dmitry Scherbakov

@@ -29,10 +29,10 @@
 <script>
 export default {
   methods: {
-    handleResize (event) {
+    handleResize () {
       this.$refs['mobMenu'].classList.remove('show-menu')
     },
-    handleScroll (event) {
+    handleScroll () {
       if (window.scrollY < window.innerHeight) {
         this.$refs['homeBtn'].classList.add('active')
         this.$refs['homeBtnMob'].classList.add('active')
@@ -187,7 +187,7 @@ export default {
     background-color: white;
     text-align: left;
     width: 100%;
-    box-shadow: 0px 8px 10px -10px rgba(0,0,0,0.75);
+    box-shadow: 0 8px 10px -10px rgba(0,0,0,0.75);
       li {
         display: block;
         line-height: 26px;
