@@ -54,7 +54,6 @@
     @include respond-to($p650) {
       height: 1100px;
     }
-
   }
   .container {
     margin: auto;
@@ -63,7 +62,7 @@
     text-align: center;
     height: 100vh;
     @include respond-to($p888) {
-      padding: 20px 0px;
+      padding: 20px 0;
     }
     img {
       border-radius: 50%;
@@ -83,7 +82,7 @@
       font-weight: 400;
       @include respond-to($p650) {
         font-size: 18px;
-        min-width: 0px;
+        min-width: 0;
         width: 92%;
       }
     }
@@ -135,7 +134,7 @@
       }
     }
     @include respond-to($p650) {
-      min-width: 0px;
+      min-width: 0;
       width: 92%;
     }
   }

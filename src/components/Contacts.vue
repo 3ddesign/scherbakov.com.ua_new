@@ -39,7 +39,7 @@
       padding: 20px 80px;
     }
     @include respond-to($p650) {
-      padding: 20px  0px;
+      padding: 20px  0;
     }
   }
   .contact-blocks {
@@ -96,5 +96,4 @@
       transform: translateX(0);
     }
   }
-
 </style>

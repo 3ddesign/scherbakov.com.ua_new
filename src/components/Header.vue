@@ -52,9 +52,6 @@ export default {
       letter-spacing: 1px;
       font-style: normal;
     }
-    /*&:hover {*/
-      /*animation:text-animation 1s ease;*/
-    /*}*/
   }
 
   .isActive {
