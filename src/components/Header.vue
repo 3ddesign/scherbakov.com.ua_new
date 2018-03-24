@@ -9,7 +9,7 @@
     </div>
     <div class="scroll-down">
     <span>
-      <a href="#topMenu" v-smooth-scroll="{ duration: 1500 }">
+      <a href="#topMenu" v-smooth-scroll="{ duration: 1500, offset: 53 }">
         <img src="../assets/icons/down-arrow.svg" alt="arrow">
       </a>
     </span>

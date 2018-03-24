@@ -21,7 +21,7 @@
     </nav>
   </div>
     <div class="scroll-up" ref="scrollBtn">
-      <a href="#home" v-smooth-scroll="{ duration: 1500 }"><img src="../../src/assets/icons/up-arrow.svg" alt="up!"></a>
+      <a href="#home" v-smooth-scroll="{ duration: 1500 }"><img src="../../src/assets/icons/up-arrow.svg" alt="up button"></a>
     </div>
 </div>
 </template>
@@ -150,6 +150,7 @@ export default {
     right: 2em;
     opacity: 0;
     transition: opacity .5s;
+    border-radius: 50%;
     a {
       background-color: rgba(135, 135, 135, .5);
       display: block;
@@ -164,6 +165,7 @@ export default {
         width: 20px;
         max-width: 100%;
         height: auto;
+        border-radius: 50%;
       }
       &:hover {
         background-color: rgba(135, 135, 135, .8);
