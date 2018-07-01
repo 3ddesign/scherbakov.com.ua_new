@@ -5,7 +5,8 @@
       <div class="pfblock-line"></div>
       <img src="../assets/images/Dmitry.jpg" alt="Dmitry Scherbakov">
       <div class="pfblock-subtitle">
-        Hi! My name is Dmitry. I'm a frontend developer. <br> I use Angular 2+ as main framework, have some experience of creating API using Node.js.
+        Hi! My name is Dmitry. I'm a frontend developer. <br>
+        I use Angular 2+ as main framework, have experience of creating API using Node.js.
         I'm passionate about developing with JavaScript and have aspiration to grow as strong
         full stack developer.
       </div>
@@ -22,12 +23,17 @@
         <tr>
           <td>Angular 2+, React</td>
         </tr>
-
+        <tr>
+          <td>TypeScript, RxJS, NgRx</td>
+        </tr>
         <tr>
           <td>Experience with Node.js</td>
         </tr>
         <tr>
-          <td>Experience with Ionic2 and React Native</td>
+          <td>Scrum development experience</td>
+        </tr>
+        <tr>
+          <td>Experience in creating applications with Ionic2</td>
         </tr>
         <tr>
           <td>Adaptive layout using different preprocessors and frameworks</td>
