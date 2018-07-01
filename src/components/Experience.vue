@@ -14,23 +14,28 @@
         </thead>
         <tbody>
         <tr>
-          <td>Jul 2017 - present</td>
+          <td>Apr 2018 - present</td>
+          <td>Tallium Inc</td>
+          <td class="bold-col">Frontend Developer</td>
+        </tr>
+        <tr>
+          <td>Jul 2017 - Apr 2018 </td>
           <td>DB2 Limited</td>
-          <td class="bold-col">Front-End Developer</td>
+          <td class="bold-col">Frontend Developer</td>
         </tr>
         <tr>
           <td>Feb 2009 - Jun 2017</td>
-          <td>«Asbis Ukraine»</td>
+          <td>Asbis Ukraine</td>
           <td class="bold-col">IT Manager</td>
         </tr>
         <tr>
           <td>Nov 2007 - Feb 2009</td>
-          <td>«Intercity Travel ltd»</td>
+          <td>Intercity Travel ltd</td>
           <td class="bold-col">System Administrator</td>
         </tr>
         <tr>
           <td>Feb 2005 - Nov 2007</td>
-          <td>«Buymerovka»</td>
+          <td>Buymerovka</td>
           <td class="bold-col">System Administrator</td>
         </tr>
         </tbody>
@@ -47,7 +52,7 @@
         <tbody>
         <tr>
           <td>Courses Udemy</td>
-          <td class="bold-col">React 16 - The Complete Guide</td>
+          <td class="bold-col">React 16 - The Complete Guide, The Complete Node.js Developer Course, etc.</td>
         </tr>
         <tr>
           <td>Courses GoIT</td>
@@ -57,7 +62,7 @@
         </tr>
         <tr>
           <td>Online courses TVDN (CyberBionic Systematics)</td>
-          <td class="bold-col">WEB Frontend Developer
+          <td class="bold-c ol">WEB Frontend Developer
             <a target="_blank" href="http://testprovider.com/ru/Certificate/Search/TP18538432">(sertificate)</a>
           </td>
         </tr>
