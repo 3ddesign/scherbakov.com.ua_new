@@ -57,13 +57,13 @@
         <tr>
           <td>Courses GoIT</td>
           <td class="bold-col">GoFrontend
-            <a target="_blank" href="http://scherbakov.com.ua/Scherbakov_GoIT.pdf">(sertificate)</a>
+            <a target="_blank" href="https://scherbakov.com.ua/Scherbakov_GoIT.pdf">(sertificate)</a>
           </td>
         </tr>
         <tr>
           <td>Online courses TVDN (CyberBionic Systematics)</td>
           <td class="bold-c ol">WEB Frontend Developer
-            <a target="_blank" href="http://testprovider.com/ru/Certificate/Search/TP18538432">(sertificate)</a>
+            <a target="_blank" href="https://testprovider.com/ru/Certificate/Search/TP18538432">(sertificate)</a>
           </td>
         </tr>
         <tr>

@@ -3,7 +3,7 @@
   <div id="topMenu" class="menu-wrapper"  ref="topMenu">
     <nav class="menu">
       <div class="container">
-        <a class="my-name" href="http://scherbakov.com.ua/">Dmitry Scherbakov</a>
+        <a class="my-name" href="https://scherbakov.com.ua/">Dmitry Scherbakov</a>
         <img  @click="showMenu" src="../assets/images/mob-mnu.svg" class="mob-menu-lnk" alt="humburger menu">
         <ul class="desktop-menu">
           <li><a href="#home" class="active" v-smooth-scroll="{ duration: 1500 }" ref="homeBtn">Home</a></li>
