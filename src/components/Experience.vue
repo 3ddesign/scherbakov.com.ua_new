@@ -51,7 +51,7 @@
         </thead>
         <tbody>
         <tr>
-          <td>Courses Udemy</td>
+          <td>Udemy.com</td>
           <td class="bold-col">React 16 - The Complete Guide, The Complete Node.js Developer Course, etc.</td>
         </tr>
         <tr>
@@ -62,7 +62,7 @@
         </tr>
         <tr>
           <td>Online courses TVDN (CyberBionic Systematics)</td>
-          <td class="bold-c ol">WEB Frontend Developer
+          <td class="bold-col">WEB Frontend Developer
             <a target="_blank" href="https://testprovider.com/ru/Certificate/Search/TP18538432">(sertificate)</a>
           </td>
         </tr>
