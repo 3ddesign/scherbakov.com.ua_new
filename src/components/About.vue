@@ -6,8 +6,8 @@
       <img src="../assets/images/Dmitry.jpg" alt="Dmitry Scherbakov">
       <div class="pfblock-subtitle">
         Hi! My name is Dmitry. I'm a frontend developer. <br>
-        I use Angular 2+ as main framework, have experience of creating API using Node.js.
-        I'm passionate about developing with JavaScript and have aspiration to grow as strong
+        I use Angular 2+ as the main framework and have an experience of creating API using Node.js.
+        I'm passionate about developing with JavaScript and have an aspiration to grow as strong
         full stack developer.
       </div>
       <br>
