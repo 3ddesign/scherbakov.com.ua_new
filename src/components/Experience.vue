@@ -52,7 +52,8 @@
         <tbody>
         <tr>
           <td>Udemy.com</td>
-          <td class="bold-col">React 16 - The Complete Guide, The Complete Node.js Developer Course, etc.</td>
+          <td class="bold-col">
+          React 16 - The Complete Guide, The Complete Node.js Developer Course, Docker and Kubernetes: The Complete Guide, etc.</td>
         </tr>
         <tr>
           <td>Courses GoIT</td>
