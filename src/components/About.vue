@@ -6,7 +6,7 @@
       <img src="../assets/images/Dmitry.jpg" alt="Dmitry Scherbakov">
       <div class="pfblock-subtitle">
         Hi! My name is Dmitry. I'm a frontend developer. <br>
-        I use Angular 2+ as the main framework and have an experience of creating API using Node.js.
+        I use Angular as the main framework, have an experience of creating MEAN stack projects.
         I'm passionate about developing with JavaScript and have an aspiration to grow as strong
         full stack developer.
       </div>
@@ -30,16 +30,19 @@
           <td>Experience with Node.js</td>
         </tr>
         <tr>
-          <td>Scrum development experience</td>
+          <td>MEAN stack projects development</td>
+        </tr>
+         <tr>
+          <td>Working with Agile development processes</td>
         </tr>
         <tr>
-          <td>Experience in creating applications with Ionic2</td>
+          <td>Experience in creating applications with Ionic 2/Ionic 3 and PWA</td>
         </tr>
         <tr>
           <td>Adaptive layout using different preprocessors and frameworks</td>
         </tr>
         <tr>
-          <td>Also extensive experience of network and system administration: configuring
+          <td>Additional extensive experience of network and system administration: configuring
             servers, deployment and maintenance of various network solutions, etc.
           </td>
         </tr>
