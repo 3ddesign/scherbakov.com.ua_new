@@ -31,7 +31,7 @@
         <tr>
           <td>Nov 2007 - Feb 2009</td>
           <td>Intercity Travel ltd</td>
-          <td class="bold-col">System Administrator</td>
+          <td class="bold-col">System Administrator/Webmaster</td>
         </tr>
         <tr>
           <td>Feb 2005 - Nov 2007</td>
