@@ -59,7 +59,7 @@
   @import '../assets/scss/mixins';
 
   section {
-    height: 890px;
+    height: 950px;
     @include respond-to($p650) {
       height: 1100px;
     }
