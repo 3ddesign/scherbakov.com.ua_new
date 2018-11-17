@@ -9,13 +9,13 @@
           <li><a href="#home" class="active" v-smooth-scroll="{ duration: 1500 }" ref="homeBtn">Home</a></li>
           <li class=""><a href="#about" v-smooth-scroll="{ duration: 1500 }" ref="aboutBtn">About me</a></li>
           <li class=""><a href="#experience" v-smooth-scroll="{ duration: 1500 }" ref="experienceBtn">Experience</a></li>
-          <li><a href="#contact" v-smooth-scroll="{ duration: 1500 }" ref="contactBtn">Contact</a></li>
+          <li><a href="#contact" v-smooth-scroll="{ duration: 1500 }" ref="contactBtn">Contacts</a></li>
         </ul>
         <ul @click="showMenu" class="mobile-menu" ref="mobMenu">
           <li><a href="#home" class="active" v-smooth-scroll="{ duration: 1500 }" ref="homeBtnMob">Home</a></li>
           <li class=""><a href="#about" v-smooth-scroll="{ duration: 1500 }" ref="aboutBtnMob">About me</a></li>
           <li class=""><a href="#experience" v-smooth-scroll="{ duration: 1500 }" ref="experienceBtnMob">Experience</a></li>
-          <li><a href="#contact" v-smooth-scroll="{ duration: 1500 }" ref="contactBtnMob">Contact</a></li>
+          <li><a href="#contact" v-smooth-scroll="{ duration: 1500 }" ref="contactBtnMob">Contacts</a></li>
         </ul>
       </div>
     </nav>
