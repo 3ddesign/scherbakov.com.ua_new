@@ -14,7 +14,7 @@
         </thead>
         <tbody>
         <tr>
-          <td>Apr 2018 - present</td>
+          <td>Apr 2018 - Feb 2019</td>
           <td>Tallium Inc</td>
           <td class="bold-col">Frontend Developer</td>
         </tr>
