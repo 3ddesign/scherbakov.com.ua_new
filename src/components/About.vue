@@ -43,7 +43,7 @@
         </tr>
         <tr>
           <td>Additional extensive experience of network and system administration: configuring
-            servers, deployment and maintenance of various network solutions, etc.
+            servers, deployment and maintenance of various network solutions.
           </td>
         </tr>
         </tbody>

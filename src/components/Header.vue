@@ -29,7 +29,7 @@ export default {
       this.isHovered = true
       setTimeout(() => {
         this.isHovered = false
-      }, 1000)
+      }, 800)
     }
   }
 }
