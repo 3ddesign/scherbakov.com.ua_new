@@ -30,13 +30,16 @@
             <td>Experience with Node.js</td>
           </tr>
           <tr>
+            <td>Working with WPA applications</td>
+          </tr>
+          <tr>
             <td>MEAN stack projects development</td>
           </tr>
           <tr>
             <td>Working with Agile development processes</td>
           </tr>
           <tr>
-            <td>Experience in creating applications with Ionic 2/Ionic 3 and PWA</td>
+            <td>Experience in creating applications with Ionic and NativeScript</td>
           </tr>
           <tr>
             <td>Adaptive layout using different preprocessors and frameworks</td>
