@@ -16,7 +16,7 @@
         <tr>
           <td>Feb 2019 - at the current time</td>
           <td>Glorium Technologies</td>
-          <td class="bold-col">Team lead (frontend)</td>
+          <td class="bold-col">Frontend Team Lead</td>
         </tr>
         <tr>
           <td>Apr 2018 - Feb 2019</td>
