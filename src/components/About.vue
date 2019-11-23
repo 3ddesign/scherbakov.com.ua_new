@@ -7,8 +7,8 @@
       <div class="pfblock-subtitle">
         Hi! My name is Dmitry. I'm a frontend developer.
         <br>I use Angular as the main framework, have an experience of creating MEAN stack projects.
-        I'm passionate about developing with JavaScript and have an aspiration to grow as strong
-        full stack developer.
+        I'm passionate about developing with JavaScript and have an aspiration to keep
+        improving in it.
       </div>
       <br>
       <table class="table table-hover text-center table-striped form-group wow fadeInUp animated">
@@ -30,19 +30,16 @@
             <td>Experience with Node.js</td>
           </tr>
           <tr>
-            <td>Working with WPA applications</td>
-          </tr>
-          <tr>
             <td>MEAN stack projects development</td>
           </tr>
           <tr>
             <td>Working with Agile development processes</td>
           </tr>
           <tr>
-            <td>Experience in creating applications with Ionic and NativeScript</td>
+            <td>Adaptive layout using different preprocessors and frameworks</td>
           </tr>
           <tr>
-            <td>Adaptive layout using different preprocessors and frameworks</td>
+            <td>Experience in creating applications with Ionic, NativeScript and PWA</td>
           </tr>
           <tr>
             <td>
