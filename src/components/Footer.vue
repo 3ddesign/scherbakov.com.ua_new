@@ -15,7 +15,7 @@
           <i class="fa fa-github" aria-hidden="true"></i></a></li>
     </ul>
     <p class="copyright">
-      © 2019 Dmitry Scherbakov
+      © 2020 Dmitry Scherbakov
     </p>
   </footer>
 </template>
