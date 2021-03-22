@@ -5,7 +5,7 @@
       <div class="pfblock-line"></div>
       <img src="../assets/images/Dmitry.jpg" alt="Dmitry Scherbakov">
       <div class="pfblock-subtitle">
-        Hi! My name is Dmitry. I'm a frontend developer.
+        Hi! My name is Dmitry. I currently working as a Team Lead (FE team).
         <br>I use Angular as the main framework, have an experience of creating MEAN stack projects.
         I'm passionate about developing with JavaScript and have an aspiration to keep
         improving in it.
