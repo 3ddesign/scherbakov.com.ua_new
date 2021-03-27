@@ -55,6 +55,11 @@
         </tr>
         </thead>
         <tbody>
+         <tr>
+         <td>E5</td>
+        <td class="bold-col">
+         Project Management: PMI edition</td>
+        </tr>
         <tr>
           <td>Udemy.com</td>
           <td class="bold-col">
