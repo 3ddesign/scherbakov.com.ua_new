@@ -6,9 +6,9 @@
       <img src="../assets/images/Dmitry.jpg" alt="Dmitry Scherbakov">
       <div class="pfblock-subtitle">
         Hi! My name is Dmitry. I'm a frontend developer.
-        <br>I use Angular as the main framework, have an experience of creating MEAN stack projects.
-        I'm passionate about developing with JavaScript and have an aspiration to keep
-        improving in it.
+        <br>I use Angular as the main framework, also I have an experience of creating MEAN stack projects and
+          mobile applications. I am passionate about development with JavaScript and have an
+          aspiration to keep improving in it.
       </div>
       <br>
       <table class="table table-hover text-center table-striped form-group wow fadeInUp animated">
