@@ -61,18 +61,25 @@
          Project Management: PMI edition</td>
         </tr>
         <tr>
-          <td>Udemy.com</td>
+          <td>Academind.com</td>
           <td class="bold-col">
-          React 16 - The Complete Guide, The Complete Node.js Developer Course, Docker and Kubernetes: The Complete Guide, etc.</td>
+        JavaScript Data Structures, Docker & Kubernetes: The Practical Guide</td>
         </tr>
         <tr>
-          <td>Courses GoIT</td>
+          <td>Udemy.com</td>
+          <td class="bold-col">
+          Clean Code, Typescript: The Complete Developer's Guide, Svelte.js - The Complete Guide (incl.
+          Sapper.js), Cypress - Modern Automation Testing, React 16 - The Complete Guide, The
+          Complete Node.js Developer Course etc.</td>
+        </tr>
+        <tr>
+          <td>Goit.ua</td>
           <td class="bold-col">GoFrontend
             <a target="_blank" href="https://scherbakov.com.ua/Scherbakov_GoIT.pdf">(certificate)</a>
           </td>
         </tr>
         <tr>
-          <td>Online courses TVDN (CyberBionic Systematics)</td>
+          <td>ITVDN (CyberBionic Systematics)</td>
           <td class="bold-col">WEB Frontend Developer
             <a target="_blank" href="https://testprovider.com/ru/Certificate/Search/TP18538432">(certificate)</a>
           </td>
