@@ -24,7 +24,7 @@
           <td class="bold-col">Frontend Developer</td>
         </tr>
         <tr>
-          <td>Jul 2017 - Apr 2018 </td>
+          <td>Jul 2017 - Apr 2018</td>
           <td>DB2 Limited</td>
           <td class="bold-col">Frontend Developer</td>
         </tr>
