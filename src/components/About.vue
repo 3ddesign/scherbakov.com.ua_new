@@ -12,7 +12,7 @@
       </div>
       <br>
       <table class="table table-hover text-center table-striped form-group wow fadeInUp animated">
-        <caption>My technical skills:</caption>
+        <caption>Technical expertise:</caption>
         <tbody>
           <tr>
             <td>JavaScript</td>
