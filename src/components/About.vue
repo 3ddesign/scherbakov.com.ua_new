@@ -18,7 +18,7 @@
             <td>JavaScript</td>
           </tr>
           <tr>
-            <td>HTML5, CSS3</td>
+            <td>HTML, CSS</td>
           </tr>
           <tr>
             <td>Angular 2+, React</td>
