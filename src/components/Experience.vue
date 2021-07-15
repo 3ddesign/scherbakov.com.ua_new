@@ -63,7 +63,8 @@
         <tr>
           <td>Academind.com</td>
           <td class="bold-col">
-        JavaScript Data Structures, JavaScript Algorithms, Docker & Kubernetes: The Practical Guide</td>
+        JavaScript Data Structures, JavaScript Algorithms, Docker & Kubernetes: The Practical Guide,
+        JavaScript - The Tricky Parts</td>
         </tr>
         <tr>
           <td>Udemy.com</td>
