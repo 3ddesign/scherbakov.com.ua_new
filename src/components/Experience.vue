@@ -70,7 +70,7 @@
           <td>Udemy.com</td>
           <td class="bold-col">
           Clean Code, Typescript: The Complete Developer's Guide, Svelte.js - The Complete Guide (incl.
-          Sapper.js), Cypress - Modern Automation Testing, React 16 - The Complete Guide, The
+          Sapper.js), Cypress - Modern Automation Testing, SQL - The Complete Developer's Guide, React 16 - The Complete Guide, The
           Complete Node.js Developer Course etc.</td>
         </tr>
         <tr>
