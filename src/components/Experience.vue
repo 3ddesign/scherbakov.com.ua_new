@@ -71,7 +71,7 @@
           <td class="bold-col">
           Clean Code, Typescript: The Complete Developer's Guide, Svelte.js - The Complete Guide (incl.
           Sapper.js), Cypress - Modern Automation Testing, How To Become An Outstanding Solution Architect, SQL - The Complete Developer's Guide, React 16 - The Complete Guide, The
-          Complete Node.js Developer Course etc.</td>
+          Complete Node.js Developer Course, etc.</td>
         </tr>
         <tr>
           <td>Goit.ua</td>
